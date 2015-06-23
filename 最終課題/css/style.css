@@ -4,7 +4,9 @@
 }
 
 body{
-     width: 100%;   
+     background-color: #F5F5F5; 
+     width: 100%;
+     font-family: 'Courier New','Gulim';
 }
 
 
@@ -12,11 +14,57 @@ body{
      width: 100%;
      height: 500px;
      background-image: url(../images/typing.jpg);
-    background-size: cover;
-    -moz-background-size:cover;
+     background-size: cover;
+     -moz-background-size:cover;
 } 
 
 .in{
      width: 950px;    
      height: auto;
+     margin: auto;
+     padding: 50px;
+}
+
+h1{ 
+     border: 1px solid ghostwhite;
+     color: ghostwhite;
+     border-radius: px;
+     padding: 10px;
+     width: 100px;
+}
+
+p1{
+     color: ghostwhite;
+     margin-top: 30px;
+     float: left;
+}
+
+.music{
+      background-size: cover;
+      -moz-background-size:cover;
+      color: #7D6C46;
+}
+
+h2{
+     border: 1px solid ;
+     color: ;
+     border-radius: px;
+     padding: 10px;
+     width: 100px;
+}
+
+.list-music{
+     overflow: hidden;
+     margin-top: 30px;
+}
+
+.list-music li{
+    width: 276px;
+    background: #fff;
+    list-style-type: none;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    
 }
