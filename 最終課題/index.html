@@ -5,14 +5,16 @@
     <title>koyamai</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery.bgswitcher.js"></script>
     <script src="js/last.js"></script>
 </head>
 <body>
  
-  <div class="top">
+  <div class="top" id="top">
+     
       <div class="in">
         <div class="left">
-             <h1><img src="images/logo.gif" alt="" width="px"></h1>
+             <h1><img src="images/logo.png" alt="" width="px"></h1>
           <p1>わたしの好きなものを載せているだけの<br>サイトです</p1>  
         </div>
         
@@ -35,16 +37,16 @@
       <div class="in">
           <h2>i am</h2>
           <ul class="list-iam">
-              <img src="images/iam.jpg" alt="" width="150">
+              <img src="images/iam.png" alt="" width="150" class="me">
               <li>コヤママイコ(19)</li>
               <li>関西大学総合情報学部二回生</li>
               <li>大阪府出身</li><br>
           </ul>
           <a href="https://www.facebook.com/anzenpin" target="_blank">
-          <img src="images/facebook.gif" alt="" width="35px">
+          <img src="images/facebook.png" alt="" width="35px">
           </a>
           <a href="https://twitter.com/" target="_blank">
-          <img src="images/twitter.gif" alt="" width="45px">
+          <img src="images/twitter.png" alt="" width="45px">
           </a>
           
       </div>
@@ -57,15 +59,15 @@
        <h2>music</h2>
         <ul class="list-music">
          <li>
-            <iframe width="276" height="220" src="https://www.youtube.com/embed/TgwZ7xveZls" frameborder="0" allowfullscreen></iframe>
+            <iframe width="276" height="220" src="https://www.youtube.com/embed/TgwZ7xveZls" frameborder="0" allowfullscreen class="fade"></iframe>
             <h3>GOOD ON THE REEL</h3>
          </li>
          <li>
-         <iframe width="276" height="220" src="https://www.youtube.com/embed/pJWMfiF0sf4" frameborder="0" allowfullscreen></iframe>
+         <iframe width="276" height="220" src="https://www.youtube.com/embed/pJWMfiF0sf4" frameborder="0" allowfullscreen class="fade"></iframe>
          <h3>a flood of circle</h3>
         </li>
          <li>
-           <iframe width="276" height="220" src="https://www.youtube.com/embed/C6MOKXm8x50" frameborder="0" allowfullscreen></iframe>  
+           <iframe width="276" height="220" src="https://www.youtube.com/embed/C6MOKXm8x50" frameborder="0" allowfullscreen class="fade"></iframe>  
              <h3>Fall Out Boy</h3>
          </li>
          </ul>
@@ -104,12 +106,14 @@
      
      
     <div class="creator" id="creator">
+       
+       
         <div class="in">
         <h2>creator</h2>
         <ul class="list-creator">
             
             <li>
-               <img src="images/error2.jpg" alt="" width="250">
+               <img src="images/error2.jpg" alt="" width="250" class="creatorimg">
                <h3><a href="http://error403.net/" target="_blank">error403</a></h3>
                 <p>charactor-internet-user</p>
                 <p>日本最大のクリエーターイベントAdobe Creators Festivalのゲストで呼ばれているほどの実力家です</p>
@@ -117,14 +121,14 @@
             </li>
             
              <li>
-               <img src="images/ryokuwabara.jpg" alt="" width="250">
+               <img src="images/ryokuwabara.jpg" alt="" width="250" class="creatorimg">
                <h3><a href="http://shirokuuma.tumblr.com/" target="_blank">KUWABARA RYO</a></h3>
                 <p>Graphic Designer/Editorial Designer</p>
                 <p>文字のデザインと色使いがかわいくてすきです</p> 
             </li>
             
                 <li>
-               <img src="images/yorke.jpg" alt="" width="250">
+               <img src="images/yorke.jpg" alt="" width="250" class="creatorimg">
                <h3><a href="http://shirokuuma.tumblr.com/" target="_blank">YORKE.</a></h3>
                 <p>painter</p>
                 <p>彼のライブペンティングでのパフォーマンスがたのしくてすきです</p> 
@@ -135,8 +139,9 @@
            
            </div> 
     </div> 
-          
-           
-            
+                  
+<div class="scrolltop"><a href="#top">
+    <img src="images/pagetop.png" alt="" width="">
+</a></div>             
 </body>
 </html>

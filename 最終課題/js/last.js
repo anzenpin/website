@@ -8,3 +8,11 @@ $('a[href^=#]').click(function(){
     return false;
 });
 });
+
+$(function() {
+    $(".top").bgswitcher({
+        images:["../images/sea.jpg", "../images/suberidai.jpg", "../images/tree.jpg","../images/school.jpg","../images/coffee.jpg"],
+        interval: 2000
+    });
+    
+});

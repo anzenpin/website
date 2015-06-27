@@ -11,25 +11,25 @@ body{
 nav{
      margin-botoom: 20px;
      overflow: hidden;
-    text-align: center;
-    width: 150px;
-    height: auto;
-    float: right;
-    margin-top: 72px;
+     text-align: center;
+     width: 150px;
+     height: auto;
+     float: right;
+     margin-top: 72px;
     
 }
 
 nav li{
      list-style-type: none;
      width: auto;
-     padding: 15px;
+     padding: 10px;
      margin-bottom: 20px;
      border: 2px solid ghostwhite;
      color: ghostwhite;
     
 }
 
-nev a{
+nav a{
      text-decoration: none;
      border: none;
      color: #7d8687;
@@ -40,7 +40,7 @@ nev a{
 }
 
 nav a:hover{
-     background: ghostwhite;
+     background: #7d8687;
      color: #7d8687;
 }
 
@@ -76,6 +76,7 @@ p1{
      margin-top: 30px;
 }
 
+
 p2{
     color: #7d8687;
      margin-top: 30px;
@@ -95,8 +96,21 @@ p2{
      margin-top: 30px;
     list-style-type: none;
 }
-
-
+.me{
+    -moz-transition: -moz-transform 0.5s linear;
+    -webkit-transition: -webkit-transform 0.5s linear;
+    -o-transition: -o-transform 0.5s linear;
+    -ms-transition: -ms-transform 0.5s linear;
+    transition: transform 0.5s linear;
+    margin-bottom: 15px
+}
+.me:hover{
+        -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
 
 .music{
        width: 100%;
@@ -169,11 +183,12 @@ nav a:active{
 }
 
 .creator a:link{
-     color: #F7D94C; 
+     color: #F7D94C;
+    text-decoration: none;
 }
 
 .creator a:visited { 
-     color: #305A56; 
+     color:#7d8687; 
 }
 
 .creator a:hover {
@@ -181,19 +196,37 @@ nav a:active{
 }
 
 .creator a:active {
-     color: #305A56; 
+     color: #7d8687; 
 }
 
 .list-creator{
     margin-top: 30px;
     list-style-type: none;
     background-color:;
+    padding: ;
 }
 
 .list-creator li{
     margin-bottom: 10px ;
     background-color:white;
-    
+    padding: 10px;
+}
+
+.creatorimg{
+        -moz-transition: -moz-transform 0.5s linear;
+    -webkit-transition: -webkit-transform 0.5s linear;
+    -o-transition: -o-transform 0.5s linear;
+    -ms-transition: -ms-transform 0.5s linear;
+    transition: transform 0.5s linear;
+    margin-bottom: 15px
+}
+
+.creatorimg:hover{
+         -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
 }
 
 
@@ -205,3 +238,20 @@ nav a:active{
 .coments{
     margin-left: 20px;
 }
+.scrolltop{
+    position:fixed;
+    bottom:0px;
+    right: 0px;
+}
+
+.fade {  
+    -webkit-transition: 0.3s;  
+       -moz-transition: 0.3s;
+         -o-transition: 0.3s; 
+            transition: 0.3s;
+    opacity: 0.4;
+}  
+.fade:hover {  
+    opacity: 1;  
+    filter: alpha(opacity=60);  
+}   
