@@ -8,6 +8,8 @@ body{
      font-family: 'Courier New','Gulim';
 }
 
+/*ナビゲーション*/
+
 nav{
      margin-botoom: 20px;
      overflow: hidden;
@@ -44,6 +46,18 @@ nav a:hover{
      color: #7d8687;
 }
 
+nav a:link{
+     color: ghostwhite;
+}
+
+nav a:visited{
+     color: ghostwhite;   
+}
+nav a:active{
+     color: #7d8687;   
+}
+
+/*トップページ*/
 
 .top{
      width: 100%;
@@ -75,12 +89,7 @@ p1{
      margin-top: 30px;
 }
 
-
-p2{
-    color: #7d8687;
-     margin-top: 30px;
-     float: left;    
-}
+/*自己紹介ページ*/
 
 .iam{
       background-size: cover;
@@ -91,10 +100,22 @@ p2{
     
 }
 
+h2{
+     border: 1px solid ;
+     color: ;
+     border-radius: px;
+     padding: 10px;
+     width: 100px;
+     text-align: center;
+}
+
 .list-iam{
      margin-top: 30px;
     list-style-type: none;
 }
+
+/*マウスを乗せたらぬるっと拡大*/
+
 .me{
     -moz-transition: -moz-transform 0.5s linear;
     -webkit-transition: -webkit-transform 0.5s linear;
@@ -111,6 +132,8 @@ p2{
     transform: scale(1.2);
 }
 
+
+
 .music{
        width: 100%;
      height: auto;
@@ -118,18 +141,6 @@ p2{
      background-size: cover;
      -moz-background-size:cover;
      color: ghostwhite;
-}
-
-h2{
-     border: 1px solid ;
-     color: ;
-     border-radius: px;
-     padding: 10px;
-     width: 100px;
-     text-align: center;
-}
-h3{
-     color: #7d8687;   
 }
 
 .list-music{
@@ -147,6 +158,24 @@ h3{
     padding: 10px;
     
 }
+
+h3{
+     color: #7d8687;   
+}
+
+/*動画画面をマウスを乗せたらはっきり見えるようにする*/
+
+.fade {  
+    -webkit-transition: 0.3s;  
+       -moz-transition: 0.3s;
+         -o-transition: 0.3s; 
+            transition: 0.3s;
+    opacity: 0.4;
+}  
+.fade:hover {  
+    opacity: 1;  
+    filter: alpha(opacity=60);  
+}   
 
 .place{
      background-size: cover;
@@ -170,20 +199,17 @@ h3{
       background-color: ghostwhite;
 }
 
-nav a:link{
-     color: ghostwhite;
+.list-creator{
+    margin-top: 30px;
+    list-style-type: none;
+    background-color:;
+    padding: ;
 }
 
-nav a:visited{
-     color: ghostwhite;   
-}
-nav a:active{
-     color: #7d8687;   
-}
-
-.creator a:link{
-     color: #F7D94C;
-    text-decoration: none;
+.list-creator li{
+    margin-bottom: 10px ;
+    background-color:white;
+    padding: 10px;
 }
 
 .creator a:visited { 
@@ -198,18 +224,7 @@ nav a:active{
      color: #7d8687; 
 }
 
-.list-creator{
-    margin-top: 30px;
-    list-style-type: none;
-    background-color:;
-    padding: ;
-}
-
-.list-creator li{
-    margin-bottom: 10px ;
-    background-color:white;
-    padding: 10px;
-}
+/*マウスを乗せたら拡大、マウスをずらしたら元の大きさに*/
 
 .creatorimg{
         -moz-transition: -moz-transform 0.5s linear;
@@ -228,29 +243,10 @@ nav a:active{
     transform: scale(0.8);
 }
 
+/*クリックしたらトップページへ*/
 
-.image{
-     position:relative;
-     width: 250px;
-}
-
-.coments{
-    margin-left: 20px;
-}
 .scrolltop{
     position:fixed;
     bottom:0px;
     right: 0px;
 }
-
-.fade {  
-    -webkit-transition: 0.3s;  
-       -moz-transition: 0.3s;
-         -o-transition: 0.3s; 
-            transition: 0.3s;
-    opacity: 0.4;
-}  
-.fade:hover {  
-    opacity: 1;  
-    filter: alpha(opacity=60);  
-}   
